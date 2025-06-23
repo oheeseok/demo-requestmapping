@@ -1,0 +1,9 @@
+server:
+  address: "::"
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  mvc:
+    static-path-pattern: /**
